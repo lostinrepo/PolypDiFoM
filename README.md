@@ -5,7 +5,7 @@ Shivanshu Agnihotri, Snehashis Majhi, Deepak Ranjan Nayak and Debesh Jha
 
 
 ## Framework Overview
-Our framework integrates frozen foundation models (SAM and CLIP) into a lightweight segmentation baselines using a staged distillation strategy.
+Our framework integrates frozen foundation models (SAM, DINOv2, OneFormer and Mask2Former) into a lightweight segmentation baselines using a staged distillation strategy.
 
 <p align="center">
   <img src="figures/framework.png" width="85%">
