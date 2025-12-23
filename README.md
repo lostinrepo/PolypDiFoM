@@ -18,6 +18,12 @@ Comparison of our method with state-of-the-art approaches on multiple polyp segm
   <img src="figures/qualitative_results.png" width="90%">
 </p>
 
+## Method
+-  Modular distillation that injects rich priors from multiple vision foundation models (SAM, DINOv2, CLIP, OneFormer, Mask2Former) into lightweight baselines (UNet/U-Net++).
+-  Low- and high-frequency features are distilled into bottleneck layers.
+-  A 3 phased training strategy ensures stable convergence.
+
+
 
 
 
