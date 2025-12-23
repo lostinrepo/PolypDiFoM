@@ -23,7 +23,6 @@ Comparison of our method with state-of-the-art approaches on multiple polyp segm
 -  Low- and high-frequency features are distilled into bottleneck layers.
 -  A 3 phased training strategy ensures stable convergence.
 
-
 ### Dataset Preparation
 Download the polyp datasets and organize them as follows:
 data/
@@ -67,6 +66,57 @@ The naming convention reflects which foundation models are used during training.
 All pre-trained weights can be downloaded from Google Drive:
 
 - [Download all model weights](https://drive.google.com/drive/folders/1yz92j-Ap2gkCvIPMBnxBldH7zvIV0UY4?usp=sharing)
+
+## Code Organization and Usage
+
+We provide a unified implementation file **`PolypDiFoM_UNetPP.ipynb`**, which contains the complete pipeline for the **U-Net++ architecture** under the **3-foundation-model (3F) setting**, integrating:
+
+- SAM
+- DINO
+- OneFormer
+
+This notebook includes the full workflow, covering:
+- Dataset loading and preprocessing
+- Feature generation from foundation models
+- Model definition
+- Training and evaluation procedures
+
+### 🔹 Purpose of the Unified Notebook
+
+The unified Jupyter notebook is provided to:
+- Offer a **clear, end-to-end view** of the PolypDiFoM framework
+- Help users easily understand the **overall training and inference flow**
+- Enable straightforward replication of the proposed method
+
+Researchers may **refactor the notebook into modular scripts** (e.g., `train.py`, `dataset.py`, `model.py`) according to their preferences or project structure.
+
+---
+
+### 🔹 Extending to Other Foundation-Model Settings
+
+The same implementation can be **directly extended** to other configurations, such as:
+- **2F** (e.g., SAM + DINO)
+- **4F** (additional foundation models)
+
+Feature extraction from SAM and DINO is explicitly presented in the notebook.  
+Feature generation for other foundation models (e.g., OneFormer, Mask2Former) can be incorporated in a **similar manner**, allowing researchers to explore alternative combinations.
+
+Currently, we evaluate PolypDiFoM using four foundation models.  
+The framework is **model-agnostic**, and users are encouraged to experiment with additional foundation models and suggest further improvements.
+
+---
+
+### 🔹 Paths and Weights
+
+- All dataset and checkpoint paths in the notebook are **placeholders** and can be modified according to the user’s directory structure.
+- Pre-trained weights can be included for **direct evaluation and testing**.
+
+---
+
+### 🔹 Future Updates
+
+Additional notebooks corresponding to different foundation-model configurations (e.g., 2F and 4F settings) will be released after further code cleaning and modularization.
+
 
 
 ## Citation
