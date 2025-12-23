@@ -80,9 +80,7 @@ If you find this work useful, please cite:
   journal={arXiv preprint arXiv:2512.09307},
   year={2025}
 }
-
-
----
+```
 
 ### License
 This project is for research and educational purposes only.
