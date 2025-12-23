@@ -67,7 +67,7 @@ The naming convention reflects which foundation models are used during training.
 
 All pre-trained weights can be downloaded from Google Drive:
 
-- [Download all model weights]([https://drive.google.com/your-link-here](https://drive.google.com/drive/folders/1yz92j-Ap2gkCvIPMBnxBldH7zvIV0UY4?usp=sharing))
+- [Download all model weights](https://drive.google.com/drive/folders/1yz92j-Ap2gkCvIPMBnxBldH7zvIV0UY4?usp=sharing)
 
 
 ## Citation
