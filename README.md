@@ -2,15 +2,15 @@ This repository accompanies our research paper "From SAM to DINOv2: Towards Dist
 
 🔍 Highlights
 
-Distillation from Segment Anything (SAM) and DINOv2
+Distillation from Segment Anything (SAM), DINOv2 and other foundation models. 
 
-Lightweight backbone (U-Net based)
+Lightweight segmentation baselines (U-Net, Unet ++, PraNet etc.)
 
 Plug-and-play distillation blocks (low and high-level)
 
 Generalized across multiple polyp datasets
 
-Reduced training cost + improved segmentation performance
+Reduced training cost + improved segmentation performance of lightweight baselines
 
 🧠 Key Contributions
 
@@ -22,6 +22,3 @@ Low + high frequency information learning
 
 Generalized Polyp Segmentation benchmark
 
-📦 Code (coming soon!)
-
-Full implementation of training scripts, evaluation, and pretrained weights will be updated shortly.
