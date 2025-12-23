@@ -1,24 +1,15 @@
-This repository accompanies our research paper "From SAM to DINOv2: Towards Distilling Foundation Models to Lightweight Baselines for Generalized Polyp Segmentation", where we propose a foundation-model distillation framework that transfers semantic priors from large models (SAM, CLIP, DINOv2) into compact U-Net based architectures for medical image segmentation.
+# From SAM to DINOv2: Towards Distilling Foundation Models to Lightweight Baselines for Generalized Polyp Segmentation
 
-🔍 Highlights
+**Authors:**  
+Shivanshu Agnihotri, Snehashis Majhi, Deepak Ranjan Nayak and Debesh Jha
 
-Distillation from Segment Anything (SAM), DINOv2 and other foundation models. 
 
-Lightweight segmentation baselines (U-Net, Unet ++, PraNet etc.)
+## Framework Overview
+Our framework integrates frozen foundation models (SAM and CLIP) into a lightweight segmentation baselines using a staged distillation strategy.
 
-Plug-and-play distillation blocks (low and high-level)
+<p align="center">
+  <img src="figures/framework.png" width="85%">
+</p>
 
-Generalized across multiple polyp datasets
 
-Reduced training cost + improved segmentation performance of lightweight baselines
-
-🧠 Key Contributions
-
-Two-stage knowledge distillation pipeline
-
-Feature priors from foundation models
-
-Low + high frequency information learning
-
-Generalized Polyp Segmentation benchmark
 
