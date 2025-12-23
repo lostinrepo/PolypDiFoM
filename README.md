@@ -37,6 +37,38 @@ data/
 │ ├── ETIS-LaribPolypDB/
 │ └── Kvasir/
 
+## Pre-trained Weights
+
+We provide multiple pre-trained weight files corresponding to different configurations.  
+The naming convention reflects which foundation models are used during training.
+
+- **`unet_sam_dino_best.pth`**  
+  Trained with **two foundation models**:
+  - SAM
+  - DINO  
+  This model integrates features from SAM and DINO into the U-Net architecture.
+
+- **`emcadnet_sam_dinov3_oneformer_3f.pth`**  
+  Trained using **three integrated foundation models (3F setting)**:
+  - SAM
+  - DINOv3
+  - OneFormer  
+
+- **`pranet_sam_dino_oneformer_mask2.pth`**  
+  Trained with **all integrated foundation models**:
+  - SAM
+  - DINO
+  - OneFormer
+  - Mask2Former
+
+  This model represents the **full configuration** and can be used to evaluate the overall performance of PolypDiFoM over PraNet.
+
+### 📥 Download Links
+
+All pre-trained weights can be downloaded from Google Drive:
+
+- [Download all model weights]((https://drive.google.com/drive/folders/1yz92j-Ap2gkCvIPMBnxBldH7zvIV0UY4?usp=sharing))
+
 
 ## Citation
 If you find this work useful, please cite:
@@ -48,6 +80,14 @@ If you find this work useful, please cite:
   journal={arXiv preprint arXiv:2512.09307},
   year={2025}
 }
+
+
+---
+
+### License
+This project is for research and educational purposes only.
+Commercial use requires permission.
+
 
 
 
