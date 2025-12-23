@@ -46,7 +46,6 @@ The naming convention reflects which foundation models are used during training.
   Trained with **two foundation models**:
   - SAM
   - DINO  
-  This model integrates features from SAM and DINO into the U-Net architecture.
 
 - **`emcadnet_sam_dinov3_oneformer_3f.pth`**  
   Trained using **three integrated foundation models (3F setting)**:
@@ -61,7 +60,7 @@ The naming convention reflects which foundation models are used during training.
   - OneFormer
   - Mask2Former
 
-  This model represents the **full configuration** and can be used to evaluate the overall performance of PolypDiFoM over PraNet.
+  (This model represents the **full configuration** and can be used to evaluate the overall performance of PolypDiFoM over PraNet.)
 
 ### 📥 Download Links
 
