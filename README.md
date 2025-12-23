@@ -11,5 +11,14 @@ Our framework integrates frozen foundation models (SAM, DINOv2, OneFormer and Ma
   <img src="figures/framework.png" width="85%">
 </p>
 
+## Qualitative Results
+Comparison of our method with state-of-the-art approaches on multiple polyp segmentation datasets.
+
+<p align="center">
+  <img src="figures/qualitative_results.png" width="90%">
+</p>
+
+
+
 
 
