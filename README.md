@@ -98,10 +98,10 @@ The same implementation can be **directly extended** to other configurations, su
 - **2F** (e.g., SAM + DINO)
 - **4F** (additional foundation models)
 
-Feature extraction from SAM and DINO is explicitly presented in the notebook.  
-Feature generation for other foundation models (e.g., OneFormer, Mask2Former) can be incorporated in a **similar manner**, allowing researchers to explore alternative combinations.
+Feature extraction from SAM, DINO and OneFormer is explicitly presented in the notebook.  
+Feature generation for other foundation models (e.g. Mask2Former, CLIP, I-JEPA etc. ) can be incorporated in a **similar manner**, allowing researchers to explore alternative combinations.
 
-Currently, we evaluate PolypDiFoM using four foundation models.  
+Currently, we evaluate PolypDiFoM using four foundation models which is already discussed in the papaer.  
 The framework is **model-agnostic**, and users are encouraged to experiment with additional foundation models and suggest further improvements.
 
 ---
