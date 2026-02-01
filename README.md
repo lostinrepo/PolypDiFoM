@@ -1,4 +1,4 @@
-# From SAM to DINOv2: Towards Distilling Foundation Models to Lightweight Baselines for Generalized Polyp Segmentation
+# From SAM to DINOv2: Towards Distilling Foundation Models to Lightweight Baselines for Generalized Polyp Segmentation (WACV 2026)
 
 **Authors:**  
 Shivanshu Agnihotri, Snehashis Majhi, Deepak Ranjan Nayak and Debesh Jha
